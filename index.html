@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpg" href="/public/Medien Royal Thai/Galerie/LOGO.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Thai Box Gym</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <div id="VG_OVERLAY_CONTAINER" style="width: 0; height: 0;"></div>
+
+    <script defer>
+      (function() {
+        window.VG_CONFIG = {
+          ID: "n2Jdq95mjA2RUGjoFnDd",
+          region: "eu", 
+          render: "bottom-right",
+          stylesheets: [
+            "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css"
+          ]
+        };
+
+        const vgScript = document.createElement("script");
+        vgScript.src = "https://vg-bunny-cdn.b-cdn.net/vg_live_build/vg_bundle.js";
+        vgScript.defer = true;
+        document.body.appendChild(vgScript);
+      })();
+    </script>
+  </body>
+</html>
