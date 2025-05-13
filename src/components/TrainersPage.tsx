@@ -66,6 +66,24 @@ const trainers: Trainer[] = [
       "Reha-Sport-Qualifikation"
     ],
     description: "Daniel spezialisiert sich auf die Integration von modernen Trainingsmethoden in traditionelles Thaiboxen. Seine innovativen Trainingskonzepte und sein individueller Betreuungsansatz machen ihn bei Anfängern und Fortgeschrittenen gleichermaßen beliebt."
+  },
+  {
+    id: 4,
+    name: "Vasilis Siozos",
+    role: "MMA-Trainer",
+    image: "public/Medien Royal Thai/Trainer/Wasili.jpg",
+    experience: "15+ Jahre",
+    specialties: [
+      "MMA Technik",
+      "Wettkampfvorbereitung",
+      "Konditionstraining"
+    ],
+    certifications: [
+      "Lizenzierter Muay Thai Trainer",
+      "Kampfsport-Pädagoge",
+      "Fitness-Trainer B-Lizenz"
+    ],
+    description: "Als einziger MMA-Trainer des Royal Thai Box Gym trainiert Vasilis seine Schüler mit Leidenschaft und Engagement"
   }
 ];
 
